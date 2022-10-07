@@ -3,7 +3,7 @@
 /* ============================================= */
 
 * {
-   font-family: 'Lato', sans-serif;
+   font-family: $stack-lato-sans;
    color: $color-grey;
    box-sizing: border-box;
  }
@@ -21,15 +21,18 @@
  /*              Typography                       */
  /* ============================================= */
  
- .headline-primary {
-   color: $color-bluegreen;
-   margin-left: 10px;
+ .headline {
+    &-primary {
+      color: $color-bluegreen;
+      margin-left: 10px;
+    }
+    
+    &-secondary {
+      font-weight: 300;
+      color: $color-grey;
+    }
  }
- 
- .headline-secondary {
-   font-weight: 300;
-   color: $color-grey;
- }
+
  
  .link {
    color: $color-bluegreen;

@@ -340,7 +340,6 @@ a {
   color: #58e1c1;
   margin-left: 10px;
 }
-
 .headline-secondary {
   font-weight: 300;
   color: #777;
@@ -440,7 +439,6 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -550,7 +548,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: 768px ) {
   .container {
     max-width: 1400px;
     display: block;

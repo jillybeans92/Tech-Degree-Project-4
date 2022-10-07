@@ -15,6 +15,9 @@ $color-col7: #ec9fa3;
 $color-col8: #fd9f85;
 $color-col12 : #80e8d1;
 
-//Media Query Breakpoints
+//Media Query Breakpoint
+$brk-tablet: '(min-width: 768px )';
 
-$brk-tablet: '(max-width: 768px )';
+//font stacks
+
+$stack-lato-sans: 'Lato', sans-serif;
